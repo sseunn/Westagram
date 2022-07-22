@@ -1,11 +1,10 @@
 import React from 'react';
 import './Main.scss';
-import MainNav from './MainNav';
 
 const Main = () => {
   return (
     <article id="all-wrapper">
-      <MainNav />
+      {/* <MainNav /> */}
       <article className="content-wrapper">
         <section className="feed">
           <section className="feed-profile">
@@ -36,7 +35,7 @@ const Main = () => {
               src="/images/feedphoto.jpeg"
               width="615px"
               height="615px"
-              alt="#"
+              alt="#" // alt속성 디테일 중요시.!
             />
           </section>
 
